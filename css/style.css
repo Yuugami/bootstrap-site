@@ -1,0 +1,227 @@
+/* Colors Scheme
+Lush Green - #07AB43
+Jungle Green - #07B516
+Plain Green - #319E0E
+Yellowish Green - #6EB507
+Yellow Green - #A1AB07
+*/
+
+
+/* Core */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown button {
+    padding: 2px;
+}
+
+body {
+    background-color: #319E0E !important;
+}
+
+.body {
+    background-color: #6EB507;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.horiBar {
+    border: 0.5px solid #319E0E;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav.nav-pills.nav li {
+    background-color: #A1AB07;
+}
+
+.nav.nav-pills.nav li a {
+    color: #215E0E;
+}
+
+.nav.nav-pills.nav li.active > a {
+    background-color: #6EB507;
+}
+
+.dropdown-menu {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    bottom: 60px;
+}
+
+
+/* Font */
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Gentium Basic", "Aldhabi", "Hoefler Text", serif !important;
+    color: #215E0E !important;
+}
+
+p,
+a {
+    font-family: "Open Sans", "Tahoma", sans-serif !important;
+    color: #215E0E;
+}
+
+
+/* Index.html */
+
+.jumbotron {
+    height: 15rem;
+    background-image: url(../img/nature.jpg);
+}
+
+.jumbotron h1 {
+    text-align: center;
+    color: #6EB507 !important;
+    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, -2px 0 0 #000, 0 -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 0 0 #000, 0 2px 0 #000;
+    font-size: 3em;
+}
+
+.nav.nav-pills {
+    text-align: center;
+    display: none;
+}
+
+.body h1 {
+    text-align: center;
+}
+
+.body p {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.panel-footer {
+    background-color: #07AB43 !important;
+    clear: both;
+    text-align: center;
+}
+
+
+/* Help.html */
+
+.body .list-group {
+    background-color: green !important;
+    color: green !important;
+}
+
+.list-group-item.active {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#07B516), to(green)) !important;
+}
+
+div a h4 {
+    text-align: center;
+}
+
+
+/* Contact.html */
+
+.body form div label {
+    display: block;
+    text-align: center;
+}
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 600px) {
+    .dropdown {
+        display: none;
+    }
+    .nav.nav-pills {
+        width: 100%;
+        display: block;
+    }
+    .nav.nav-pills li {
+        width: 33%;
+    }
+    .body picture:nth-child(2) img {
+        width: 50%;
+        float: left;
+    }
+    .body p:nth-child(3) {
+        width: 50%;
+        float: right;
+        margin-top: 80px;
+        padding: 10px;
+    }
+    .body picture:nth-child(4) img {
+        float: right;
+        width: 50%;
+        clear: left;
+        margin-top: 2em;
+    }
+    .body p:nth-child(5) {
+        width: 50%;
+        margin-top: 21em;
+        clear: left;
+        padding: 1.05em;
+    }
+    .horiBar {
+        clear: both;
+        margin: 0.5em auto;
+    }
+    .body picture:nth-child(10) img {
+        width: 50%;
+        margin: 2px auto;
+        padding: 10px;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .body h1 {
+        font-size: 5em;
+    }
+    .jumbotron h1 {
+        position: relative;
+        bottom: 60px;
+        font-size: 4em;
+        padding: 30px;
+    }
+    .body {
+        width: 100%;
+    }
+    .nav.nav-pills {
+        width: 50%;
+        display: block;
+    }
+    .body p {
+        font-size: 2.4rem;
+    }
+    .body img {
+        display: block;
+        width: 20%;
+        padding: 2em;
+    }
+    /* Help.html */
+    div a h4 {
+        font-size: 3em;
+    }
+    .body div {
+        width: 80%;
+        margin: 0.5em auto;
+    }
+}
