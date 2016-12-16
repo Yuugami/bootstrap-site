@@ -59,6 +59,10 @@ body {
     bottom: 60px;
 }
 
+#map {
+    display: none;
+}
+
 
 /* Font */
 
@@ -253,6 +257,7 @@ div a h4 {
         margin: 0 auto;
     }
     #map {
+        display: block;
         position: absolute;
         top: 140px;
         left: 400px;
