@@ -260,8 +260,8 @@ div a h4 {
         display: block;
         position: absolute;
         top: 140px;
-        left: 400px;
-        width: 52%;
+        left: 40%;
+        width: 50%;
         height: 250px;
         background-color: grey;
     }
